@@ -12,6 +12,7 @@ available at [Datadog](https://www.datadoghq.com/).
 ```bash
 DD_API_KEY=<api_key_here> \
   bash -c "$(curl -L https://raw.githubusercontent.com/DataDog/dd-agent/master/packaging/osx/install.sh)"
+/usr/local/bin/datadog-agent start
 ```
 
 ## Download and install Composer
