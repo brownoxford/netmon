@@ -1,0 +1,103 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "060d41182a69426a7ac976080f67e4fe",
+    "content-hash": "da1e8e37fd101c198bbc7df11d814001",
+    "packages": [
+        {
+            "name": "datadog/php-datadogstatsd",
+            "version": "0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DataDog/php-datadogstatsd.git",
+                "reference": "90aee3687a43ba31e7d94b6c0a9ad9b127c5dd1c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DataDog/php-datadogstatsd/zipball/90aee3687a43ba31e7d94b6c0a9ad9b127c5dd1c",
+                "reference": "90aee3687a43ba31e7d94b6c0a9ad9b127c5dd1c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "lib-curl": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "libraries/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Corley",
+                    "email": "anthroprose@gmail.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Datadog",
+                    "email": "dev@datadoghq.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This is an extremely simple PHP datadogstatsd client",
+            "homepage": "https://www.datadoghq.com/",
+            "keywords": [
+                "DataDog",
+                "php"
+            ],
+            "time": "2016-05-24 12:56:33"
+        },
+        {
+            "name": "geerlingguy/ping",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/geerlingguy/Ping.git",
+                "reference": "df6be89643b04d7fcd67a3470295e01ff6d77f72"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/geerlingguy/Ping/zipball/df6be89643b04d7fcd67a3470295e01ff6d77f72",
+                "reference": "df6be89643b04d7fcd67a3470295e01ff6d77f72",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "JJG/Ping.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeff Geerling",
+                    "email": "jeff@jeffgeerling.com"
+                }
+            ],
+            "description": "A PHP class to ping hosts.",
+            "time": "2016-06-04 21:28:28"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "~5.6"
+    },
+    "platform-dev": []
+}

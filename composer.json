@@ -1,0 +1,15 @@
+{
+  "name" : "brownoxford/netmon",
+  "description" : "Some tools to monitor home network performance with Datadog",
+  "require" : {
+    "php" : "~5.6",
+    "geerlingguy/ping" : "~1.1.1",
+    "datadog/php-datadogstatsd" : "~0.4.0"
+  },
+  "license" : "MIT",
+  "keywords" : [ "datadog", "dsl" ],
+  "authors" : [ {
+    "name" : "Chris Abernethy",
+    "role" : "lead"
+  } ]
+}
